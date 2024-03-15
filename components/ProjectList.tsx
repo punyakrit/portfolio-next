@@ -12,6 +12,7 @@ export default function ProjectList() {
               title={project.title}
               githubLink={project.githubLink}
               deployedLink={project.deployedLink}
+              skil= {project.skill}
             />
           ))}
         </div>

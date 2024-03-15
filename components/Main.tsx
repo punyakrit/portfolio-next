@@ -27,7 +27,7 @@ function MainSection() {
           driven to contribute to projects that require innovative
           problem-solving and a collaborative approach to achieve success.
         </div>
-        <Buttons/>
+        <Buttons />
       </div>
     </div>
   );

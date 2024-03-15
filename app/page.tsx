@@ -14,7 +14,7 @@ export default function page() {
         <SideSocial/>
 
         <Main/>
-          {/* <Skills/> */}
+          <Skills/>
           <ProjectSection/>
         
         </div>

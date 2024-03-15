@@ -17,18 +17,18 @@ function ProjectCard({ img, title, githubLink, deployedLink, skil }: data) {
   return (
     <div className="mb-4">
       <div
-        className="relative m-7 p-5 border-2 rounded-lg  sm:w-[450px] sm:h-60 stroke-slate-100 shadow-xl shadow-white/30"
+        className="relative m-7 p-5 border-2 rounded-2xl  sm:w-[450px] sm:h-60 stroke-slate-100 shadow-xl shadow-white/30"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
         <Image
           src={img}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover rounded-xl"
           alt="Project Image"
           loading="lazy"
         />
         {isHovered && (
-          <div className="absolute inset-0 flex flex-col justify-center items-center bg-violet-950 bg-opacity-90 text-white transition-opacity duration-800">
+          <div className="absolute inset-0 flex flex-col justify-center rounded-2xl items-center bg-violet-950 bg-opacity-90 text-white transition-opacity duration-800">
             <h2 className="text-2xl font-bold mb-2">{title}</h2>
             <div className="flex space-x-10">
               <a href={githubLink} target="_blank">

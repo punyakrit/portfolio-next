@@ -1,6 +1,6 @@
 import React from 'react'
-import { projectData } from './ProjectData'
-import ProjectCard from './ProjectCard'
+import { projectData } from './Data/ProjectData'
+import ProjectCard from './UI/ProjectCard'
 
 export default function ProjectList() {
   return (

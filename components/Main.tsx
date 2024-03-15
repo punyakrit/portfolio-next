@@ -1,7 +1,7 @@
 // import Buttons from "./Buttons";
 
-import Buttons from "./Button";
-import SkillChange from "./SkillChange";
+import Buttons from "./UI/Button";
+import SkillChange from "./UI/SkillChange";
 
 function MainSection() {
   return (

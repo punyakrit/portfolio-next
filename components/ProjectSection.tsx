@@ -1,5 +1,5 @@
 import React from 'react'
-import Github from './Github'
+import Github from './UI/Github'
 import ProjectList from './ProjectList'
 
 export default function ProjectSection() {

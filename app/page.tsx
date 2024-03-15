@@ -1,7 +1,7 @@
 import Par from "@/components/Par"
 import Main from "@/components/Main"
 
-import SideSocial from "@/components/SideSocial"
+import SideSocial from "@/components/UI/SideSocial"
 import Skills from "@/components/Skills"
 import ProjectSection from "@/components/ProjectSection"
 

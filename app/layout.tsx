@@ -14,9 +14,7 @@ export default function RootLayout({
         <title>Punyakrit's Portfolio Website</title>
         <meta
           name="description"
-          content="Welcome to Punyakrit's portfolio website. I am a final year undergraduate with specialized expertise in developing
-          MERN (MongoDB, Express.js, React.js, Node.js) applications and
-          deploying them in the cloud using AWS (Amazon Web Services) tools."
+          content="Welcome to Punyakrit's portfolio website. I am a final year undergraduate with specialized expertise in developing MERN (MongoDB, Express.js, React.js, Node.js) applications and deploying them in the cloud using AWS (Amazon Web Services) tools."
         />
         <meta
           name="keywords"
@@ -26,13 +24,10 @@ export default function RootLayout({
         <meta property="og:title" content="Punyakrit's Portfolio Website" />
         <meta
           property="og:description"
-          content="Welcome to Punyakrit's portfolio website.I am a final year undergraduate with specialized expertise in developing
-          MERN (MongoDB, Express.js, React.js, Node.js) applications and
-          deploying them in the cloud using AWS (Amazon Web Services) tools."
+          content="Welcome to Punyakrit's portfolio website.I am a final year undergraduate with specialized expertise in developing MERN (MongoDB, Express.js, React.js, Node.js) applications and deploying them in the cloud using AWS (Amazon Web Services) tools."
         />
         <meta property="og:url" content="https://www.punyakrit.tech/" />
-
-
+        <link rel="icon" href="/favicon.ico" />
       </head>
       <body className={inter.className}>{children}</body>
     </html>

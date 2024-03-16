@@ -1,14 +1,18 @@
 import React from 'react'
+import SkillIcon from './SkillIcon'
 
 export default function Skills() {
   return (
 <div>
-      <div className="flex justify-center items-center h-screen flex-col ">
+      <div className="flex justify-center items-center h-max flex-col ">
         <div
           className="md:text-5xl text-2xl font-bold font-serif"
           style={{ fontFamily: "Roboto" }}
         >
-          I'm Punyakrit Singh Makhni
+          My Skill Set
+        </div>
+        <div className='mt-10'>
+          <SkillIcon/>
         </div>
         
       </div>

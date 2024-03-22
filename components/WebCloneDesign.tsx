@@ -13,6 +13,7 @@ export default function WebCloneDesign() {
         githubLink={project.githubLink}
         deployedLink={project.deployedLink}
         skil= {project.skill}
+        description={project.description}
 
       />
     ))}

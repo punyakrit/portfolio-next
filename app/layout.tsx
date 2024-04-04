@@ -11,6 +11,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        
         <title>Punyakrit's Portfolio Website</title>
         <meta
           name="description"
@@ -28,7 +29,9 @@ export default function RootLayout({
         />
         <meta property="og:url" content="https://www.punyakrit.tech/" />
         <link rel="icon" href="/favicon.ico" />
+        <meta name="google-adsense-account" content="ca-pub-1567175925424561"></meta>
       </head>
+      
       <body className={inter.className}>{children}</body>
     </html>
   );

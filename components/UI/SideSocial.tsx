@@ -3,8 +3,8 @@ import { MdOutlineEmail } from "react-icons/md";
 
 function SideSocial() {
   return (
-    <div className="fixed  bottom-10 left-0 right-0 items-end md:items-center flex h-screen md:w-full justify-center md:ml-10  md:justify-start  ">
-      <div className="  md:space-y-8 flex md:flex-col flex-row  bg-white/10 py-6 md:py-9 px-5 backdrop-blur-sm rounded-full">
+    <div className="fixed z-50 bottom-10 left-0 right-0 items-end  flex h-screen  justify-center   ">
+      <div className="md:space-x-7  flex  flex-row  bg-white/10 py-6  px-7 backdrop-blur-sm rounded-full">
         <a
           href="https://github.com/punyakrit"
           target="_blank"

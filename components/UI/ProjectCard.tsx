@@ -25,7 +25,7 @@ function ProjectCard({
   return (
     <div className="mb-4">
       <div
-        className="relative m-7 p-5 border-2 rounded-2xl  sm:w-[450px] sm:h-60 stroke-slate-100 shadow-xl shadow-white/30"
+        className=" relative cursor-pointer m-7 p-5 border-2 rounded-2xl  sm:w-[450px] sm:h-60 stroke-slate-100 shadow-xl shadow-white/30"
         onClick={() => setIsHovered(!isHovered)}
       >
         <Image
@@ -35,7 +35,7 @@ function ProjectCard({
           loading="lazy"
         />
         {isHovered && (
-          <div className="fixed top-0 left-0 w-screen h-screen flex flex-col justify-center items-center bg-violet-950 bg-opacity-95 text-white z-20">
+          <div className="fixed top-0 left-0 w-screen h-screen flex flex-col justify-center items-center bg-violet-950 bg-opacity-95 text-white z-50">
             <div className=" mx-5 md:mx-40 flex flex-col items-center text-center"> 
             <h2 className="text-3xl md:text-4xl font-bold mb-5">{title}</h2>
             <h2 className="text-lg md:text-xl font-medium mb-2 ">{description}</h2>

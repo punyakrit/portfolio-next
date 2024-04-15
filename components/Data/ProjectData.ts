@@ -1,17 +1,16 @@
 import img from '@/components/assets/portfolio.png'
 import weather from '@/components/assets/weather.png'
 import todo from '@/components/assets/Todo.png'
-import gas from '@/components/assets/gas.png'
-
+import gas from '@/components/assets/gass.png'
 export const projectData = [
   
   {
     img: gas,
     title: "LPG Management System",
-    githubLink: "https://github.com/punyakrit/LPG-Portal-MERN-Project",
-    deployedLink: "https://lpg-portal-mern-project.vercel.app/",
+    githubLink: "https://github.com/punyakrit/LPG-MERN-Project",
+    deployedLink: "https://lpg-mern-project.vercel.app/",
     skill: ["MERN", "Tailwind CSS","Auth"],
-    description:"Introducing an intuitive LPG Management Application powered by the MERN stack. Users can seamlessly create accounts and place orders for LPG services they require. Upon placing an order, users are presented with a detailed checkout bill and seamlessly redirected to a secure payment gateway to complete their transaction. The entire process can be conveniently monitored by admin users, ensuring a smooth and efficient service delivery experience."
+    description:"Introducing an intuitive LPG Management Application powered by the MERN stack. Users can seamlessly create accounts and verify using 2FA using Otp recieved from Email and place orders for LPG services they require. Upon placing an order, users are presented with a detailed checkout bill and seamlessly redirected to a secure payment gateway to complete their transaction. The entire process can be conveniently monitored by admin users, ensuring a smooth and efficient service delivery experience."
 
   },
   {

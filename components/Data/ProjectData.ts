@@ -2,6 +2,8 @@ import img from '@/components/assets/portfolio.png'
 import weather from '@/components/assets/weather.png'
 import todo from '@/components/assets/Todo.png'
 import gas from '@/components/assets/gass.png'
+import blog from '@/components/assets/blog.png'
+
 export const projectData = [
   
   {
@@ -11,6 +13,15 @@ export const projectData = [
     deployedLink: "https://lpg-mern-project.vercel.app/",
     skill: ["MERN", "Tailwind CSS","Auth"],
     description:"Introducing an intuitive LPG Management Application powered by the MERN stack. Users can seamlessly create accounts and verify using 2FA using Otp recieved from Email and place orders for LPG services they require. Upon placing an order, users are presented with a detailed checkout bill and seamlessly redirected to a secure payment gateway to complete their transaction. The entire process can be conveniently monitored by admin users, ensuring a smooth and efficient service delivery experience."
+
+  },
+  {
+    img: blog,
+    title: "Medium Blog Clone",
+    githubLink: "https://github.com/punyakrit/medium",
+    deployedLink: "https://blog.punyakrit.tech/signup",
+    skill: ["ReactJS", "Tailwind CSS","Hono", "PorstgreSQL" ],
+    description:"Blogging Allicationusign ReactJs for frontend , Tailwind CSS for styling and Serverless Backend for performing backend compute and PostgreSQL ORM is used for DB. User can create an account and see all the listed blogs and and creat new blogs."
 
   },
   {

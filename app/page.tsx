@@ -4,6 +4,7 @@ import Main from "@/components/Main"
 import SideSocial from "@/components/UI/SideSocial"
 import Skills from "@/components/Skills"
 import ProjectSection from "@/components/ProjectSection"
+import ContactForm from "@/components/ContactForm"
 
 export default function page() {
   return (
@@ -16,6 +17,7 @@ export default function page() {
         <Main/>
           <Skills/>
           <ProjectSection/>
+          <ContactForm/>
         
         </div>
 

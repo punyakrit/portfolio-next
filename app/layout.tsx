@@ -1,5 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,8 +12,20 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1567175925424561"
-     crossOrigin="anonymous"></script>
+<Script async src="https://www.googletagmanager.com/gtag/js?id=G-PEJE6E7B2R"></Script>
+<Script id='google-analytics'>
+  {`
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PEJE6E7B2R');
+  
+  `}
+  
+</Script>
+      <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1567175925424561"
+     crossOrigin="anonymous"></Script>
         <title>Punyakrit's Portfolio Website</title>
         <meta
           name="description"

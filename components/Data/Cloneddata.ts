@@ -3,8 +3,17 @@ import ginger from '@/components/assets/login.png'
 import koin from '@/components/assets/koinx.png'
 import paypal from '@/components/assets/paypal.png'
 import rib from '@/components/assets/rib.png'
+import qid from '@/components/assets/qid.png'
 
 export const ClonedData = [
+  {
+    img: qid,
+    title: "One Qid Website Clone",
+    githubLink: "https://github.com/punyakrit/qid-clone",
+    deployedLink: "https://oneqid-next.vercel.app/",
+    skill: ["NextJs", "Tailwind CSS"],
+    description: "Implemented a Website Design for Qid Challenge for Design"
+  },
   {
     img: rib,
     title: "Reach-in-Box Dashboard Assignment",

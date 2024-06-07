@@ -3,6 +3,7 @@ import weather from '@/components/assets/weather.png'
 import todo from '@/components/assets/Todo.png'
 import sh from '@/components/assets/sh.png'
 import blog from '@/components/assets/blog.png'
+import laun from '@/components/assets/laun.png'
 
 export const projectData = [
   
@@ -13,6 +14,15 @@ export const projectData = [
     deployedLink: "https://www.sharehub.xyz/",
     skill: ["NextJs", "Tailwind CSS","NextAuth", "Mongoose"],
     description:"ShareHub is a Project where users can create their public viewable profile containing their customizable social links and important links that they want to share with the world. Also having option to see their page Analytics"
+
+  },
+  {
+    img: laun,
+    title: "SuperDry",
+    githubLink: "https://github.com/punyakrit/superdry",
+    deployedLink: "https://superdry-kappa.vercel.app/",
+    skill: ["NextJs", "Tailwind CSS","NextAuth", "Mongoose"],
+    description:"This is a Laundry based website where user can place laundry order and contact and manage their service"
 
   },
   {

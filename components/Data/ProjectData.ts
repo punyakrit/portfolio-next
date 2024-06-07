@@ -1,18 +1,18 @@
 import img from '@/components/assets/portfolio.png'
 import weather from '@/components/assets/weather.png'
 import todo from '@/components/assets/Todo.png'
-import gas from '@/components/assets/gass.png'
+import sh from '@/components/assets/sh.png'
 import blog from '@/components/assets/blog.png'
 
 export const projectData = [
   
   {
-    img: gas,
-    title: "LPG Management System",
-    githubLink: "https://github.com/punyakrit/LPG-MERN-Project",
-    deployedLink: "https://lpg-mern-project.vercel.app/",
-    skill: ["MERN", "Tailwind CSS","Auth"],
-    description:"Introducing an intuitive LPG Management Application powered by the MERN stack. Users can seamlessly create accounts and verify using 2FA using Otp recieved from Email and place orders for LPG services they require. Upon placing an order, users are presented with a detailed checkout bill and seamlessly redirected to a secure payment gateway to complete their transaction. The entire process can be conveniently monitored by admin users, ensuring a smooth and efficient service delivery experience."
+    img: sh,
+    title: "Share Hub",
+    githubLink: "https://github.com/punyakrit/social-share",
+    deployedLink: "https://www.sharehub.xyz/",
+    skill: ["NextJs", "Tailwind CSS","NextAuth", "Mongoose"],
+    description:"ShareHub is a Project where users can create their public viewable profile containing their customizable social links and important links that they want to share with the world. Also having option to see their page Analytics"
 
   },
   {

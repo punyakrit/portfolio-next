@@ -24,6 +24,10 @@ export default function RootLayout({
   `}
   
 </Script>
+<Script>function initApollo(){`var n=Math.random().toString(36).substring(7),o=document.createElement("script");
+o.src="https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache="+n,o.async=!0,o.defer=!0,
+o.onload=function(){window.trackingFunctions.onLoad({appId:"663db37d358ce606c47fa06a"})},
+document.head.appendChild(o)`}initApollo();</Script>
       <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1567175925424561"
      crossOrigin="anonymous"></Script>
         <title>Punyakrit's Portfolio Website</title>
